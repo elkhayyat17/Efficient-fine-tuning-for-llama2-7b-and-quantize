@@ -35,8 +35,9 @@ Now that we have a fine-tuned model, we can export the model weights to HuggingF
 
 - Merge adaptor with base model and quantize it to n-bit-gguf fromat and push them to huggingface
 
-# 4. **load gguf**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb))<br>
+# 4. **load gguf** 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/4-%20load%20gguf.ipynb) <br>
 - load and perform Prompt engineering for model 
 
   
