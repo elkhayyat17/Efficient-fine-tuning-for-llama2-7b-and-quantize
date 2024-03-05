@@ -1,7 +1,7 @@
 # 🚀🚀Efficient-fine-tuning-for-llama2-7b-and-quantize-
 
 # 1. **PEFT LLAMA 2 7b**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WMvmjJEdNxcozAId37XkY753Fq-7L0rt?usp=drive_link) <br>
+[![Open In Colab](https://colab.research.google.com/drive/1WMvmjJEdNxcozAId37XkY753Fq-7L0rt#scrollTo=od6FRg8kKZpy) <br>
 Fine-tuning a large language model **refers to the process of further training the pre-trained model on a specific task or domain using a smaller dataset.** The initial pre-training phase involves training a language model on a massive corpus of text data to learn general language patterns and representations. Fine-tuning, on the other hand, customizes the model to a specific task or domain by exposing it to task-specific data. By fine-tuning a large language model on a specific task, you leverage the pre-trained knowledge of the model while tailoring it to the nuances and requirements of your target task. This typically allows the model to perform better and achieve higher accuracy on the specific task compared to using the pretrained model by itself for your specific task.<br>
 **Quantization-Based Fine-Tuning (QLoRA)🦾🦾**:
 
@@ -26,17 +26,17 @@ Now that we have a fine-tuned model, we can export the model weights to HuggingF
 
 
 # 2. **Run inference using the qlora adapter and base model**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sYcpQ-QuhNlKRpEparQXUClDYHPt3_dQ/view?usp=drive_link) <br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sYcpQ-QuhNlKRpEparQXUClDYHPt3_dQ#scrollTo=wyHyu9f4p0jK) <br>
 - load qlora adaptor and base model using peft and bitsandbytes libraries
 - perform Prompt engineering for model 
 
 # 3. **merge adapter and quantization(gguf)**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1GrY2Bgqi5tsPgAoxJ2eF8Z_JRpUADN89/view?usp=drive_link) <br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GrY2Bgqi5tsPgAoxJ2eF8Z_JRpUADN89#scrollTo=kAkdN0jZpgDF) <br>
 - Merge adaptor with base model and quantize it to n-bit-gguf fromat and push them to huggingface
 
 # 4. **load gguf** 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/4-%20load%20gguf.ipynb) <br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hBu00UjsR6Enm4PXW_z7YHAexJBB8t5L) <br>
 - load and perform Prompt engineering for model 
 
   
