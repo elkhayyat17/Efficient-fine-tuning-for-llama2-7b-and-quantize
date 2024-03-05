@@ -1,7 +1,7 @@
-#🚀🚀Efficient-fine-tuning-for-llama2-7b-and-quantize-
+# 🚀🚀Efficient-fine-tuning-for-llama2-7b-and-quantize-
 
 # 1. **PEFT LLAMA 2 7b**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/1-PEFT-Llama2-7b%20on%20a%20Single%20GPU.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/1-PEFT-Llama2-7b%20on%20a%20Single%20GPU.ipynb)) <br>
 Fine-tuning a large language model **refers to the process of further training the pre-trained model on a specific task or domain using a smaller dataset.** The initial pre-training phase involves training a language model on a massive corpus of text data to learn general language patterns and representations. Fine-tuning, on the other hand, customizes the model to a specific task or domain by exposing it to task-specific data. By fine-tuning a large language model on a specific task, you leverage the pre-trained knowledge of the model while tailoring it to the nuances and requirements of your target task. This typically allows the model to perform better and achieve higher accuracy on the specific task compared to using the pretrained model by itself for your specific task.<br>
 **Quantization-Based Fine-Tuning (QLoRA)🦾🦾**:
 
@@ -26,16 +26,17 @@ Now that we have a fine-tuned model, we can export the model weights to HuggingF
 
 
 # 2. **Run inference using the qlora adapter and base model**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/2-load-peft-adapter.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/2-load-peft-adapter.ipynb))<br>
 - load qlora adaptor and base model using peft and bitsandbytes libraries
 - perform Prompt engineering for model 
 
 # 3. **merge adapter and quantization(gguf)**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/3-merge%20adapter%20and%20quantization(gguf).ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/3-merge%20adapter%20and%20quantization(gguf).ipynb)<br>
+
 - Merge adaptor with base model and quantize it to n-bit-gguf fromat and push them to huggingface
 
 # 4. **load gguf**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb))<br>
 - load and perform Prompt engineering for model 
 
   
