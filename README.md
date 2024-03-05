@@ -26,13 +26,12 @@ Now that we have a fine-tuned model, we can export the model weights to HuggingF
 
 
 # 2. **Run inference using the qlora adapter and base model**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/elkhayyat17/Mistral7b_pdf_chatting/blob/main/Chat_with_papers_Mistral_7b.ipynb](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/2-load-peft-adapter.ipynb))<br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sYcpQ-QuhNlKRpEparQXUClDYHPt3_dQ/view?usp=drive_link) <br>
 - load qlora adaptor and base model using peft and bitsandbytes libraries
 - perform Prompt engineering for model 
 
 # 3. **merge adapter and quantization(gguf)**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/elkhayyat17/Efficient-fine-tuning-for-llama2-7b-and-quantize/blob/main/3-merge%20adapter%20and%20quantization(gguf).ipynb)<br>
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1GrY2Bgqi5tsPgAoxJ2eF8Z_JRpUADN89/view?usp=drive_link) <br>
 - Merge adaptor with base model and quantize it to n-bit-gguf fromat and push them to huggingface
 
 # 4. **load gguf** 
